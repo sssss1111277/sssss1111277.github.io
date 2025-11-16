@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sssss1111277.github.io/texthelper/sitemap.xml

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="google-site-verification" content="XHIsoKZaqiJkdfdvKi-w6xhcgANaV6F0Yh4M7GUQIm8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TextHelper — утилиты для работы с текстом</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <h1>TextHelper</h1>
+    <p class="tagline">Быстрые и простые инструменты для текста</p>
+    <button id="themeToggle" class="theme-toggle">🌙 Тема</button>
+  </header>
+
+  <main class="container">
+    <section class="tool">
+      <label for="inputText">Введите текст:</label>
+      <textarea id="inputText" placeholder="Начните писать или вставьте текст..." rows="8"></textarea>
+
+      <div class="buttons">
+        <button id="btnCount">Подсчитать</button>
+        <button id="btnClear">Очистить</button>
+        <button id="btnUpper">В ВЕРХНИЙ</button>
+        <button id="btnLower">в нижний</button>
+        <button id="btnTrim">Убрать пробелы</button>
+        <button id="btnReverse">Реверс</button>
+        <button id="btnCopy">Копировать</button>
+      </div>
+
+      <div id="result" class="result">
+        <h3>Результат</h3>
+        <div id="stats" class="stats">Символов: 0 • Слов: 0 • Строк: 0</div>
+        <textarea id="outputText" rows="6" readonly placeholder="Результат появится здесь..."></textarea>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© 2025 TextHelper. </small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
